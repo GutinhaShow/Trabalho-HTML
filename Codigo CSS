@@ -1,0 +1,106 @@
+body {
+  background-color: #ffffff; 
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+h1, .Nome { color: #ec3806;}
+
+
+h1 {
+  color: #000000; 
+  text-align: center;
+margin: 50px
+}
+
+.sub{
+  color: #000000; 
+  text-align: center;
+  font-size: 30px;
+
+
+}
+
+
+
+p  {
+      font-family: Arial, sans-serif;
+      background-color: #d4c44d;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 5vh;
+}
+
+ul {
+  line-height: 2.0; 
+  font-size: 20px;
+  color: #0e0000;
+  text-align: center;
+  list-style-position: inside;
+  padding: 10px;
+  margin: 30px auto;
+  width: fit-content;
+}
+
+img {
+  border-radius: 10px; 
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #e15b0d;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #00796b;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+  .botao-mensagem {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .botao-mensagem:hover {
+      background-color: #004d40;
+    }
+
+    #mensagem {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #00796b;
+      font-weight: bold;
+    }

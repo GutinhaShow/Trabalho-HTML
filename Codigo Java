@@ -1,0 +1,4 @@
+function mostrarMensagem() {
+  const mensagem = "“Todo grande programador já foi um iniciante cheio de dúvidas. Erre, aprenda, erre de novo — é assim que se progride. Cada linha de código que você escreve hoje te deixa mais próximo do profissional que quer se tornar. Não desista!”";
+  document.getElementById("mensagem").innerText = mensagem;
+}
